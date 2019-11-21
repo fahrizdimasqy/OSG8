@@ -39,7 +39,7 @@ class MyApp extends StatelessWidget {
     Widget textSection = Container(
       padding: const EdgeInsets.all(32),
       child: Text(
-        "Susilo Bambang Yudhoyono, M.A., GCB., AC.(lahir di Tremas, Arjosari, Pacitan, Jawa Timur, Indonesia, 9 September 1949; umur 70 tahun) adalah Presiden Indonesia ke-6 yang menjabat sejak 20 Oktober 2004 hingga 20 Oktober 2014.Ia adalah Presiden pertama di Indonesia yang dipilih melalui jalur pemilu. Ia, bersama Wakil Presiden Muhammad Jusuf Kalla, terpilih dalam Pemilu Presiden 2004.",
+        "Setiap tahun pada tanggal 17 Agustus, rakyat Indonesia merayakan Hari Proklamasi Kemerdekaan ini dengan meriah. Beragam perlombaan dihadirkan mulai dari lomba panjat pinang, lomba makan kerupuk, hingga upacara militer di Istana Merdeka, serta seluruh masyarakat ikut berpartisipasi dengan caranya masing-masing..",
         softWrap: true,
         textAlign: TextAlign.justify,
       ),
@@ -110,9 +110,9 @@ class MyApp extends StatelessWidget {
             buttonSection,
             textSection,
             blogSection,
-            MyArticles("images/sby.jpg", "SBY", "Biografy sby"),
-            MyArticles("images/megawati.jpg", "Megawati", "Biografy Megawati"),
-            MyArticles("images/jokowi.jpg", "Jokowi", "Biografy Jokowi"),
+            MyArticles("images/balap_karung.jpg", "SBY", "Biografy sby"),
+            MyArticles("images/makan_kerupuk.jpg", "Megawati", "Biografy Megawati"),
+            MyArticles("images/tarik_tambang.jpg", "Jokowi", "Biografy Jokowi"),
           ],
         ),
       ),
