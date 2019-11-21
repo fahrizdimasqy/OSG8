@@ -6,7 +6,6 @@ Buat aplikasi Flutter Sederhana dengan ketentuan:
 3. Judul, deskripsi, icon, dan sebagainya bertemakan Hari Kemerdekaan Indonesia (17an)..
 
 ### Screenshot
-![Flutter Apps](https://flutterappdev.com/wp-content/uploads/2019/04/Screen-Shot-2019-04-29-at-9.50.51-AM.png "source: flutterappdev.com")
 <img src="images/Screenshot_tugas2_1.png" width="210"></img>
 <img src="images/Screenshot_tugas2_2.png" width="210"></img>
 <img src="images/Screenshot_tugas2_3.png" width="210"></img>
