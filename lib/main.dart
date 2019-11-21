@@ -31,7 +31,7 @@ class MyApp extends StatelessWidget {
     Widget blogSection = Container(
       padding: const EdgeInsets.only(bottom: 2, left: 10),
       child: Text(
-        "Artikel :",
+        "Macam macam Perlombaan pada 17 agustus :",
         style: TextStyle(fontWeight: FontWeight.bold),
       ),
     );
@@ -68,12 +68,12 @@ class MyApp extends StatelessWidget {
                 Container(
                   padding: const EdgeInsets.only(bottom: 8),
                   child: Text(
-                    'Biografy SBY:',
+                    'Informasi Terbaru, Dirgahayu 74:',
                     style: TextStyle(fontWeight: FontWeight.bold),
                   ),
                 ),
                 Text(
-                  'Presiden ke-6 RI, Indonesia',
+                  ' Bandung, Indonesia',
                   style: TextStyle(color: Colors.grey[505]),
                 ),
               ],
@@ -96,12 +96,12 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
-          title: Text("Biografy"),
+          title: Text("NKRIBlog"),
         ),
         body: ListView(
           children: [
             Image.asset(
-              'images/sby.jpg',
+              'images/17agustus.jpg',
               width: 600,
               height: 211,
               fit: BoxFit.cover,
@@ -110,9 +110,12 @@ class MyApp extends StatelessWidget {
             buttonSection,
             textSection,
             blogSection,
-            MyArticles("images/balap_karung.jpg", "SBY", "Biografy sby"),
-            MyArticles("images/makan_kerupuk.jpg", "Megawati", "Biografy Megawati"),
-            MyArticles("images/tarik_tambang.jpg", "Jokowi", "Biografy Jokowi"),
+            MyArticles("images/balap_karung.jpg", "Balap Karung",
+                "Lomba Balap Karung"),
+            MyArticles("images/makan_kerupuk.jpg", "Makan Kerupuk",
+                "Lomba Makan Kerupuk"),
+            MyArticles("images/tarik_tambang.jpg", "Tarik Tambang",
+                " Lomba Tarik Tambang"),
           ],
         ),
       ),
