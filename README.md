@@ -23,7 +23,7 @@ Buat aplikasi Flutter Sederhana dengan ketentuan:
 Salah satu program dari [**Eudeka!**](https://www.eudeka.id) untuk belajar secara _full online_ via Whatsapp/Telegram dan Google Classroom, dengan para praktisi handal di bidangnya. Selain itu juga kamu dapat berkesempatan untuk memperluas koneksimu dengan peserta lain.
 
 ### OSG8 - Flutter Basic
-Dengan jangka waktu lebih kurang 2 bulan, peserta diharapkan dapat mengenal dan membuat aplikasi simple Flutter dengan menggunakan data dari internet (API).
+membuat aplikasi list grid view 10 data.
 
 ### Cara Mendaftar Online Study Group
 Untuk pendaftaran kelas selanjutnya, silahkan kunjungi atau hubungi kami di dawah ini.
